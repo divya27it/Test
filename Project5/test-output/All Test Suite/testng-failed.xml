@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/admin/IdeaProjects/Project5/src/test/java/Testcases/UserManagement.java(failed)">
+    <classes>
+      <class name="Testcases.UserManagement">
+        <methods>
+          <include name="Testcase4_valid_username_invalid_password"/>
+          <include name="Beforetest"/>
+          <include name="takescreenshot"/>
+          <include name="setdriver"/>
+        </methods>
+      </class> <!-- Testcases.UserManagement -->
+    </classes>
+  </test> <!-- C:/Users/admin/IdeaProjects/Project5/src/test/java/Testcases/UserManagement.java(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

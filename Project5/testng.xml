@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/admin/IdeaProjects/Project5/src/test/java/Testcases/UserManagement.java">
+        <classes>
+            <class name="Testcases.UserManagement">
+                <methods>
+                    <include name="Testcase1_valid_username_and_password"/>
+                    <include name="Testcase2_invalid_username_valid_password"/>
+                    <include name="Testcase3_invalid_username_invalid_password"/>
+                    <include name="Testcase4_valid_username_invalid_password"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
